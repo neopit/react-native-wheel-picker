@@ -14,7 +14,7 @@ import java.util.List;
  * @author <a href="mailto:lesliesam@hotmail.com"> Sam Yu </a>
  */
 public class ReactNativeWheelPickerPackage implements ReactPackage {
-    @Override
+    
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Collections.emptyList();
     }
@@ -23,7 +23,7 @@ public class ReactNativeWheelPickerPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
                 new ReactWheelCurvedPickerManager()
